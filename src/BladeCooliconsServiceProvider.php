@@ -17,24 +17,24 @@ final class BladeCooliconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-coolicons', []);
 
-            $factory->add('coolicons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('coolicons', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
         });
     }
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/blade-coolicons.php', 'blade-coolicons');
+        $this->mergeConfigFrom(__DIR__ . '/../config/blade-coolicons.php', 'blade-coolicons');
     }
 
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/svg' => public_path('vendor/blade-coolicons'),
+                __DIR__ . '/../resources/svg' => public_path('vendor/blade-coolicons'),
             ], 'blade-coolicons');
 
             $this->publishes([
-                __DIR__.'/../config/blade-coolicons.php' => $this->app->configPath('blade-coolicons.php'),
+                __DIR__ . '/../config/blade-coolicons.php' => $this->app->configPath('blade-coolicons.php'),
             ], 'blade-coolicons-config');
         }
     }
