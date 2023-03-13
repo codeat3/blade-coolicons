@@ -2,7 +2,16 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-coolicons/compare/1.3.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-coolicons/compare/1.4.0...HEAD)
+
+## [1.4.0](https://github.com/codeat3/blade-coolicons/compare/1.3.0...1.4.0) - 2023-03-13
+
+### What's Changed
+
+- upgrade github action to php82 by @swapnilsarwe in https://github.com/codeat3/blade-coolicons/pull/5
+- icon updates through auto update generation script by @swapnilsarwe in https://github.com/codeat3/blade-coolicons/pull/6
+
+**Full Changelog**: https://github.com/codeat3/blade-coolicons/compare/1.3.0...1.4.0
 
 ## [1.3.0](https://github.com/codeat3/blade-coolicons/compare/1.2.0...1.3.0) - 2023-02-18
 
