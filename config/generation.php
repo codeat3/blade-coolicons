@@ -18,7 +18,7 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
 return [
     [
         // Define a source directory for the sets like a node_modules/ or vendor/ directory...
-        'source' => __DIR__.'/../dist/coolicons v2.5 SVG/*',
+        'source' => __DIR__.'/../dist/coolicons SVG/*',
 
         // Define a destination directory for your icons. The below is a good default...
         'destination' => __DIR__.'/../resources/svg',
