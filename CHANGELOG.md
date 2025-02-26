@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-coolicons/compare/1.5.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-coolicons/compare/1.6.0...HEAD)
+
+## [1.6.0](https://github.com/codeat3/blade-coolicons/compare/1.5.0...1.6.0) - 2025-02-26
+
+### What's Changed
+
+* added laravel 12 support by @swapnilsarwe in https://github.com/codeat3/blade-coolicons/pull/15
+
+**Full Changelog**: https://github.com/codeat3/blade-coolicons/compare/1.5.0...1.6.0
 
 ## [1.5.0](https://github.com/codeat3/blade-coolicons/compare/1.4.0...1.5.0) - 2024-02-28
 
