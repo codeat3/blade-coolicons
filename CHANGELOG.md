@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-coolicons/compare/1.6.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-coolicons/compare/1.7.0...HEAD)
+
+## [1.7.0](https://github.com/codeat3/blade-coolicons/compare/1.6.0...1.7.0) - 2026-03-21
+
+### What's Changed
+
+* laravel 13 compatibility by @swapnilsarwe in https://github.com/codeat3/blade-coolicons/pull/16
+
+**Full Changelog**: https://github.com/codeat3/blade-coolicons/compare/1.6.0...1.7.0
 
 ## [1.6.0](https://github.com/codeat3/blade-coolicons/compare/1.5.0...1.6.0) - 2025-02-26
 
